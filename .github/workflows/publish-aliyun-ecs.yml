@@ -25,6 +25,6 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
         ARGS: "-avzr --delete"
         SOURCE: "build/"
-        REMOTE_HOST: "47.98.252.43"
+        REMOTE_HOST: ${{ secrets.SERVER_IP }}
         REMOTE_USER: "root"
-        TARGET: "/root/lego"
+        TARGET: ${{ secrets.TARGET }}
