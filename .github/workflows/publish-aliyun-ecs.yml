@@ -24,7 +24,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
         ARGS: "-avzr --delete"
-        SOURCE: "vuepress/.vuepress/dist"
+        SOURCE: "lego-react/build"
         REMOTE_HOST: "47.98.252.43"
         REMOTE_USER: "root"
         TARGET: "/root/lego"
