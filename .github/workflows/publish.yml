@@ -13,13 +13,11 @@ jobs:
     # 下载代码
     - uses: actions/checkout@v2
     # 安装Nodejs
-    - name: Setup Node.js 13.2.0
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v2
       with:
-        node-version: 13.2.0
-    # 安装依赖和编译
-    - name: Build project
-      run: yarn && yarn build
+        node-version: 14
+    - run: yarn
+    - run: yarn build
     # 部署到阿里云
     # - name: Deploy to Aliyun
     #   uses: easingthemes/ssh-deploy@v2.1.1
