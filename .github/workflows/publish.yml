@@ -19,7 +19,7 @@ jobs:
         node-version: 13.2.0
     # 安装依赖和编译
     - name: Build project
-        run: yarn && yarn build
+      run: yarn && yarn build
     # 部署到阿里云
     # - name: Deploy to Aliyun
     #   uses: easingthemes/ssh-deploy@v2.1.1
