@@ -29,4 +29,4 @@ jobs:
     #     SOURCE: "vuepress/.vuepress/dist"
     #     REMOTE_HOST: "47.98.252.43"
     #     REMOTE_USER: "root"
-    #     TARGET: "/root/vuepress"
+    #     TARGET: "/root/lego"
