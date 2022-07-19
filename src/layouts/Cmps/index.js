@@ -49,7 +49,7 @@ export default function Cmps(props) {
   //  左侧栏布局
   return (
     <div id="cmps" className={styles.main}>
-      <div className={styles.cmpTop}>😄 Bubucuo </div>
+      <div className={styles.cmpTop}> 🚗 Lego </div>
       <div className={styles.cmpList}>
         {menus.map((item) => (
           <div
